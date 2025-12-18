@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+
 </head>
 
 <body>
@@ -14,19 +16,16 @@
     <br>
 
     <h2>Jeśli chcesz zwiedzić Wrocław, zostaw swoje dane kotaktowe</h2>
-    <p>Wkrótce skontaktujemy się z tobą</p>
+    <p class="text_center">Wkrótce skontaktujemy się z tobą</p>
     <form action="#">
-        <label for="name">Imię:</label>
-        <br>
-        <input type="text" placeholder="Wpisz imię" name="name" id="name">
-        <br>
-        <br>
-
-        <label for="phone">Komórka:</label>
-        <br>
-        <input type="tel" id="phone" name="phone" placeholder="Wpisz numer telefonu">
-        <br>
-        <br>
+        <div>
+            <label for="name">Imię:</label>
+            <input type="text" placeholder="Wpisz imię" name="name" id="name">
+        </div>
+        <div>
+            <label for="phone">Komórka:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Wpisz numer telefonu">
+        </div>
         <button type="submit">Wyślij</button>
     </form>
 </body>
